@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Komodo_Insurance_Repository
 {
-    class Menu_Repository
+    public class Menu_Repository
     {
 
         private List<MenuItem> _listOfMenuItems = new List<MenuItem>();

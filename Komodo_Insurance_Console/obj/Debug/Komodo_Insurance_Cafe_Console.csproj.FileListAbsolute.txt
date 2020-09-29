@@ -1,0 +1,10 @@
+C:\Users\btjen\source\repos\Komodo_Insurance\Komodo_Insurance_Console\bin\Debug\Komodo_Insurance_Console.exe.config
+C:\Users\btjen\source\repos\Komodo_Insurance\Komodo_Insurance_Console\bin\Debug\Komodo_Insurance_Console.exe
+C:\Users\btjen\source\repos\Komodo_Insurance\Komodo_Insurance_Console\bin\Debug\Komodo_Insurance_Console.pdb
+C:\Users\btjen\source\repos\Komodo_Insurance\Komodo_Insurance_Console\bin\Debug\Komodo_Insurance_Repository.dll
+C:\Users\btjen\source\repos\Komodo_Insurance\Komodo_Insurance_Console\bin\Debug\Komodo_Insurance_Repository.pdb
+C:\Users\btjen\source\repos\Komodo_Insurance\Komodo_Insurance_Console\obj\Debug\Komodo_Insurance_Cafe_Console.csprojAssemblyReference.cache
+C:\Users\btjen\source\repos\Komodo_Insurance\Komodo_Insurance_Console\obj\Debug\Komodo_Insurance_Cafe_Console.csproj.CoreCompileInputs.cache
+C:\Users\btjen\source\repos\Komodo_Insurance\Komodo_Insurance_Console\obj\Debug\Komodo_Insurance_Cafe_Console.csproj.CopyComplete
+C:\Users\btjen\source\repos\Komodo_Insurance\Komodo_Insurance_Console\obj\Debug\Komodo_Insurance_Console.exe
+C:\Users\btjen\source\repos\Komodo_Insurance\Komodo_Insurance_Console\obj\Debug\Komodo_Insurance_Console.pdb

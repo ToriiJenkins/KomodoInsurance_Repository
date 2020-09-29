@@ -10,6 +10,8 @@ namespace Komodo_Insurance_Console
 {
     class ProgramUI
     {
+        private Menu_Repository _menuRepo = new Menu_Repository();
+
         // Method that runs/starts the application
         public void Run()
         {
@@ -48,11 +50,11 @@ namespace Komodo_Insurance_Console
                         break;
                     case "3":
                         //View Menu Item by Meal Number
-                        DisplayMenuItemByMealNumber();
+                        //DisplayMenuItemByMealNumber();
                         break;
                     case "4":
                         //Remove Menu Item
-                        RemoveMenuItem();
+                       // RemoveMenuItem();
                         break;
                     case "9":
                         //Exit
@@ -65,7 +67,7 @@ namespace Komodo_Insurance_Console
                 } //Switch
 
                 Console.WriteLine("Press any key to continue...");
-                Console.ReadLine();
+                Console.ReadKey();
                 Console.Clear();
 
             }//while keepRunning
@@ -91,19 +93,22 @@ namespace Komodo_Insurance_Console
             newItem.Description = Console.ReadLine();
 
             //Ingredients List
-            int itemNum = 0;
+           
             string ingredient = "";
-
-            Console.WriteLine("Enter the Ingredients: \n" +
-                " <type end to complete ingredient list> ");
-
+            
             while (ingredient != "end")
             {
-                itemNum++;
-                Console.WriteLine("Enter ingrdient " + item + ":");\
-                newItem.IngredientsList. = Console.ReadLine();
-            }
+               
+                Console.WriteLine("Enter an ingrdient ('end' to complete list): ");
+                ingredient = Console.ReadLine();
+                if (ingredient != "end")
+                {
+                    newItem.IngredientsList.Add(ingredient);
+                  
+                }
 
+            }
+            
             //Price
             Console.WriteLine("Enter the meal price: ");
             string priceAsString = Console.ReadLine();
@@ -113,22 +118,27 @@ namespace Komodo_Insurance_Console
         }
 
         //View menu items
-        //private void DisplayMenuItems()
+        private void DisplayMenuItems()
         {
+            List<MenuItem> listOfMItems = _menuRepo.GetMenuItemList();
 
+            foreach(MenuItem item in listOfMItems)
+            {
+                Console.WriteLine(item.Meal_Name);
+            }
         }
 
         //View menu item by meal number
         //private void DisplayMenuItemByMealNumber()
-        {
+        //{
 
-        }
+        //}
 
         //Remove menu item
         //private void RemoveMenuItem()
-        {
+        //{
 
-        }
+        //}
 
     }
 }
