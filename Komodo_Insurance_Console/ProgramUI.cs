@@ -15,6 +15,7 @@ namespace Komodo_Insurance_Console
         // Method that runs/starts the application
         public void Run()
         {
+            SeedMealList();
             Menu();
         }
 
@@ -29,8 +30,8 @@ namespace Komodo_Insurance_Console
                 Console.WriteLine("Select a menu option:\n" +
                         "1. Add Menu Item \n" +
                         "2. View Menu Items\n" +
-                        "3. View Menu Item by Meal Number \n" +
-                        "4. Remove Menu Item \n" +
+                        //"3. View Menu Item by Meal Number \n" +      //for later use
+                        "3. Remove Menu Item \n" +
                         "9.Exit \n");
 
 
@@ -48,13 +49,13 @@ namespace Komodo_Insurance_Console
                         //View All Menu Options
                         DisplayMenuItems();
                         break;
-                    case "3":
+                    //case "3":
                         //View Menu Item by Meal Number
                         //DisplayMenuItemByMealNumber();
-                        break;
-                    case "4":
+                        //break;
+                    case "3":
                         //Remove Menu Item
-                       // RemoveMenuItem();
+                        RemoveMenuItem();
                         break;
                     case "9":
                         //Exit
@@ -104,7 +105,6 @@ namespace Komodo_Insurance_Console
                 if (ingredient != "end")
                 {
                     newItem.IngredientsList.Add(ingredient);
-                  
                 }
 
             }
@@ -114,7 +114,7 @@ namespace Komodo_Insurance_Console
             string priceAsString = Console.ReadLine();
             newItem.Price = double.Parse(priceAsString);
 
-
+            _menuRepo.AddMenuItemToList(newItem);
         }
 
         //View menu items
@@ -124,21 +124,43 @@ namespace Komodo_Insurance_Console
 
             foreach(MenuItem item in listOfMItems)
             {
-                Console.WriteLine(item.Meal_Name);
+                Console.WriteLine("Meal #      : " + item.Meal_Number);
+                Console.WriteLine("Meal        : " + item.Meal_Name);
+                Console.WriteLine("Price       : " + item.Price);
+                Console.WriteLine("Description : " + item.Description);
+                Console.Write("Ingredients : ");
+                List<string> ingredients = item.IngredientsList;
+                foreach(string ingredient in ingredients)
+                {
+                    Console.Write(ingredient + "  ");
+                }
+                Console.WriteLine(" \n");
             }
         }
 
         //View menu item by meal number
         //private void DisplayMenuItemByMealNumber()
         //{
-
         //}
 
         //Remove menu item
-        //private void RemoveMenuItem()
-        //{
+        private void RemoveMenuItem()
+        {
+            Console.WriteLine("Please enter the number of the meal to remove:");
+            string itemToRemoveString = Console.ReadLine();
+            int itemToRemove = int.Parse(itemToRemoveString);
 
-        //}
+            _menuRepo.RemoveMenuItemFromList(itemToRemove);
+
+        }
+
+        public void SeedMealList()
+        {
+            MenuItem item = new MenuItem(1, "Burger Meal", "Burger Fries and a Drink", new List<string> { "burger", "fries", "drink" }, 3.99);
+            MenuItem item2 = new MenuItem(2, "Potato Meal", "Baked Potato and a Drink", new List<string> { "Packed Spud", "drink" }, 2.99);
+            _menuRepo.AddMenuItemToList(item);
+            _menuRepo.AddMenuItemToList(item2);
+        }
 
     }
 }

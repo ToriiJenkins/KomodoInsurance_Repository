@@ -6,29 +6,7 @@ using System.Threading.Tasks;
 
 namespace Komodo_Insurance_Repository
 {
-    public enum DrinkType
-    {
-        DrPepper = 1,
-        Coke,
-        Lemonaide,
-        Water
-    }
 
-    public enum EntreType
-    {
-        Sandwich = 10,
-        Wrap,
-        Salad,
-        Soup
-    }
-
-    public enum SideType
-    {
-        SideSalad = 20,
-        SideSoup,
-        Fries,
-        Fruit
-    }
 
     //C# Object
     public class MenuItem

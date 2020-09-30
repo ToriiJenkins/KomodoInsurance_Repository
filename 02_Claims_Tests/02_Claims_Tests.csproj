@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7709BE04-5C93-4F55-8D73-089D52890E18}</ProjectGuid>
+    <ProjectGuid>{1709BD7D-BA66-4179-807E-6A804742F004}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Komodo_Insurance_Tests</RootNamespace>
-    <AssemblyName>Komodo_Insurance_Tests</AssemblyName>
+    <RootNamespace>_02_Claims_Tests</RootNamespace>
+    <AssemblyName>02_Claims_Tests</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -54,12 +54,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Komodo_Insurance_Repository\Komodo_Insurance_Repository.csproj">
-      <Project>{53588AA6-11CB-42DC-B211-2505A9DF1DAD}</Project>
-      <Name>Komodo_Insurance_Repository</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
