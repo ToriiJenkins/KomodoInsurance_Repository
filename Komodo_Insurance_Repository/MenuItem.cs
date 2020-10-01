@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 namespace Komodo_Insurance_Repository
 {
 
-
     //C# Object
     public class MenuItem
     {

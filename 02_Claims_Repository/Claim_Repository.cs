@@ -6,35 +6,70 @@ using System.Threading.Tasks;
 
 namespace _02_Claims_Repository
 {
-    class Claim_Repository
+    public class Claim_Repository
     {
-        private List<Claim> _listOfClaims = new List<Claim>();
+        private Queue<Claim> _queueOfClaims = new Queue<Claim>();
 
         //Create
         public void AddClaimToList(Claim claim)
         {
-            _listOfClaims.Add(claim);
+            _queueOfClaims.Enqueue(claim);
         }
 
 
         //Read
-        public List<Claim> GetClaimList()
+        public Queue<Claim> GetClaimList()
         {
-            return _listOfClaims;
+            return _queueOfClaims;
         }
 
-        //Update
-        
-
-        //Delete
-        public bool RemoveClaimFromList(int claimID)
+        //Update Claim unused at this time Add on Date unknown
+        public bool UpdateClaim(Claim updatedClaim)
         {
-            Claim oldClaim = GetClaimByID(claimID);
-            int initialClaimCount = _listOfClaims.Count;
+            int numOfClaims = _queueOfClaims.Count();
+            
+            //find claim
+            Claim claimToUpdate = _queueOfClaims.Dequeue();
+
+            if (numOfClaims < _queueOfClaims.Count())
+            {
+                //Update Claim content
+                if (claimToUpdate != null)
+                {
+                    claimToUpdate.ClaimID = updatedClaim.ClaimID;
+                    claimToUpdate.TypeOfClaim = updatedClaim.TypeOfClaim;
+                    claimToUpdate.Description = updatedClaim.Description;
+                    claimToUpdate.ClaimAmount = updatedClaim.ClaimAmount;
+                    claimToUpdate.DateOfIncident = updatedClaim.DateOfIncident;
+                    claimToUpdate.DateOfClaim = updatedClaim.DateOfClaim;
+                    claimToUpdate.IsValid = claimToUpdate.IsValid;
+
+                    //add claim back to queue
+                    _queueOfClaims.Enqueue(claimToUpdate);
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            else
+            {
+                return false;
+            }
+        }
+        
+        //Delete
+        public bool RemoveClaimFromQueue(int claimID)
+        {
+            int initialClaimCount = _queueOfClaims.Count;
+
+            Claim oldClaim = _queueOfClaims.Dequeue();
+            
             if(oldClaim != null)
             {
-                _listOfClaims.Remove(oldClaim);
-                if (initialClaimCount > _listOfClaims.Count)
+               
+                if (initialClaimCount > _queueOfClaims.Count)
                 {
                     return true;
                 }
@@ -48,22 +83,6 @@ namespace _02_Claims_Repository
                 return false;
             }
         }//end RemoveClaimFromList
-
-        //Get Claim by claimID
-        public Claim GetClaimByID(int claimID)
-        {
-            foreach (Claim claim in _listOfClaims)
-            {
-                if (claim.ClaimID == claimID)
-                {
-                    return claim;
-                }
-            }
-            return null;
-        }// end of GetClaimByID
-
-
-
 
     }//end of Claim_Repository
 }//end of namespace

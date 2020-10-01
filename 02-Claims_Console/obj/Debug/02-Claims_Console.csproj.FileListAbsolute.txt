@@ -1,0 +1,10 @@
+C:\Users\btjen\source\repos\Komodo_Insurance\02-Claims_Console\bin\Debug\02-Claims_Console.exe.config
+C:\Users\btjen\source\repos\Komodo_Insurance\02-Claims_Console\bin\Debug\02-Claims_Console.exe
+C:\Users\btjen\source\repos\Komodo_Insurance\02-Claims_Console\bin\Debug\02-Claims_Console.pdb
+C:\Users\btjen\source\repos\Komodo_Insurance\02-Claims_Console\bin\Debug\02_Claims_Repository.dll
+C:\Users\btjen\source\repos\Komodo_Insurance\02-Claims_Console\bin\Debug\02_Claims_Repository.pdb
+C:\Users\btjen\source\repos\Komodo_Insurance\02-Claims_Console\obj\Debug\02-Claims_Console.csprojAssemblyReference.cache
+C:\Users\btjen\source\repos\Komodo_Insurance\02-Claims_Console\obj\Debug\02-Claims_Console.csproj.CoreCompileInputs.cache
+C:\Users\btjen\source\repos\Komodo_Insurance\02-Claims_Console\obj\Debug\02-Claims_Console.csproj.CopyComplete
+C:\Users\btjen\source\repos\Komodo_Insurance\02-Claims_Console\obj\Debug\02-Claims_Console.exe
+C:\Users\btjen\source\repos\Komodo_Insurance\02-Claims_Console\obj\Debug\02-Claims_Console.pdb

@@ -1,0 +1,6 @@
+C:\Users\btjen\source\repos\Komodo_Insurance\02_Claims_Repository\bin\Debug\02_Claims_Repository.dll
+C:\Users\btjen\source\repos\Komodo_Insurance\02_Claims_Repository\bin\Debug\02_Claims_Repository.pdb
+C:\Users\btjen\source\repos\Komodo_Insurance\02_Claims_Repository\obj\Debug\02_Claims_Repository.csprojAssemblyReference.cache
+C:\Users\btjen\source\repos\Komodo_Insurance\02_Claims_Repository\obj\Debug\02_Claims_Repository.csproj.CoreCompileInputs.cache
+C:\Users\btjen\source\repos\Komodo_Insurance\02_Claims_Repository\obj\Debug\02_Claims_Repository.dll
+C:\Users\btjen\source\repos\Komodo_Insurance\02_Claims_Repository\obj\Debug\02_Claims_Repository.pdb
