@@ -1,0 +1,10 @@
+C:\Users\btjen\source\repos\Komodo_Insurance\BadgeSystem_Console\bin\Debug\BadgeSystem_Console.exe.config
+C:\Users\btjen\source\repos\Komodo_Insurance\BadgeSystem_Console\bin\Debug\BadgeSystem_Console.exe
+C:\Users\btjen\source\repos\Komodo_Insurance\BadgeSystem_Console\bin\Debug\BadgeSystem_Console.pdb
+C:\Users\btjen\source\repos\Komodo_Insurance\BadgeSystem_Console\bin\Debug\BadgeSystem_Repository.dll
+C:\Users\btjen\source\repos\Komodo_Insurance\BadgeSystem_Console\bin\Debug\BadgeSystem_Repository.pdb
+C:\Users\btjen\source\repos\Komodo_Insurance\BadgeSystem_Console\obj\Debug\BadgeSystem_Console.csprojAssemblyReference.cache
+C:\Users\btjen\source\repos\Komodo_Insurance\BadgeSystem_Console\obj\Debug\BadgeSystem_Console.csproj.CoreCompileInputs.cache
+C:\Users\btjen\source\repos\Komodo_Insurance\BadgeSystem_Console\obj\Debug\BadgeSystem_Console.csproj.CopyComplete
+C:\Users\btjen\source\repos\Komodo_Insurance\BadgeSystem_Console\obj\Debug\BadgeSystem_Console.exe
+C:\Users\btjen\source\repos\Komodo_Insurance\BadgeSystem_Console\obj\Debug\BadgeSystem_Console.pdb
