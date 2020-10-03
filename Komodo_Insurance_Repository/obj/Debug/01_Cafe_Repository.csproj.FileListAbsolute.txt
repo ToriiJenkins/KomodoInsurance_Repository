@@ -1,0 +1,5 @@
+C:\Users\btjen\source\repos\Komodo_Insurance\Komodo_Insurance_Repository\bin\Debug\Komodo_Insurance_Repository.dll
+C:\Users\btjen\source\repos\Komodo_Insurance\Komodo_Insurance_Repository\bin\Debug\Komodo_Insurance_Repository.pdb
+C:\Users\btjen\source\repos\Komodo_Insurance\Komodo_Insurance_Repository\obj\Debug\01_Cafe_Repository.csproj.CoreCompileInputs.cache
+C:\Users\btjen\source\repos\Komodo_Insurance\Komodo_Insurance_Repository\obj\Debug\Komodo_Insurance_Repository.dll
+C:\Users\btjen\source\repos\Komodo_Insurance\Komodo_Insurance_Repository\obj\Debug\Komodo_Insurance_Repository.pdb

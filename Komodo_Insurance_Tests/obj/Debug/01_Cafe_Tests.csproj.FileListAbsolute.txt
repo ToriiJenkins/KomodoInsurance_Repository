@@ -1,0 +1,16 @@
+C:\Users\btjen\source\repos\Komodo_Insurance\Komodo_Insurance_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\btjen\source\repos\Komodo_Insurance\Komodo_Insurance_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\btjen\source\repos\Komodo_Insurance\Komodo_Insurance_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\btjen\source\repos\Komodo_Insurance\Komodo_Insurance_Tests\bin\Debug\Komodo_Insurance_Tests.dll
+C:\Users\btjen\source\repos\Komodo_Insurance\Komodo_Insurance_Tests\bin\Debug\Komodo_Insurance_Tests.pdb
+C:\Users\btjen\source\repos\Komodo_Insurance\Komodo_Insurance_Tests\bin\Debug\Komodo_Insurance_Repository.dll
+C:\Users\btjen\source\repos\Komodo_Insurance\Komodo_Insurance_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\btjen\source\repos\Komodo_Insurance\Komodo_Insurance_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\btjen\source\repos\Komodo_Insurance\Komodo_Insurance_Tests\bin\Debug\Komodo_Insurance_Repository.pdb
+C:\Users\btjen\source\repos\Komodo_Insurance\Komodo_Insurance_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\btjen\source\repos\Komodo_Insurance\Komodo_Insurance_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\btjen\source\repos\Komodo_Insurance\Komodo_Insurance_Tests\obj\Debug\01_Cafe_Tests.csprojAssemblyReference.cache
+C:\Users\btjen\source\repos\Komodo_Insurance\Komodo_Insurance_Tests\obj\Debug\01_Cafe_Tests.csproj.CoreCompileInputs.cache
+C:\Users\btjen\source\repos\Komodo_Insurance\Komodo_Insurance_Tests\obj\Debug\01_Cafe_Tests.csproj.CopyComplete
+C:\Users\btjen\source\repos\Komodo_Insurance\Komodo_Insurance_Tests\obj\Debug\Komodo_Insurance_Tests.dll
+C:\Users\btjen\source\repos\Komodo_Insurance\Komodo_Insurance_Tests\obj\Debug\Komodo_Insurance_Tests.pdb

@@ -162,8 +162,14 @@ namespace BadgeSystem_Console
                 {
                     Console.Write("Which door would you like to remove?   ");
                     string doorToRemove = Console.ReadLine();
-                    //foreach()
+                    badgeToUpdate.DoorList.Remove(doorToRemove);
 
+                }
+                else if (input2 == 2)
+                {
+                    Console.WriteLine("What door would you like to add?   ");
+                    string doorToAdd = Console.ReadLine();
+                    badgeToUpdate.DoorList.Add(doorToAdd);
                 }
 
 
